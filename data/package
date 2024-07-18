@@ -1,0 +1,1788 @@
+Existing packages for recipe cairo/1.18.0:
+
+Existing recipe in remote 'conancenter':
+
+    Package_ID: 042386f9d85dfb3eb3f610fe92b86e5d31ed10c5
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: armv8
+            build_type: Debug
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:3346836f0dca63f7945d6ed17ed26d723bbc4291
+            bzip2/1.0.8:06955caeb41bcd97dbb7ebe09828eda1babd28fa
+            expat/2.5.0:8c3bf58f5a1c42c3db962024098ad6bfe7fd5e94
+            fontconfig/2.14.2:b3f48c19c4ca9d15dc1354fc12dde8affbbefbc7
+            freetype/2.13.2:146c09a196ea1079a31892d70916956dfd5e19da
+            glib/2.78.1:2b9fb10988721126fe8412374b317e14ddfb784e
+            libelf/0.8.13:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libffi/3.4.4:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libgettext/0.22:c8ba9d6f1c61c2b402385fd9257330e2c2f8713f
+            libiconv/1.17:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libpng/1.6.40:2735bd32af8b4a0686a53e104a3b95fd255d376f
+            lzo/2.10:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            pcre2/10.42:8b827986825b8d2910dd5f10427603aef3cfa35e
+            pixman/0.42.2:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            zlib/1.3:3558c54d13382045caaf9174821b7c2ba01fc8bc
+        Outdated from recipe: True
+
+    Package_ID: 09dfd722e3c4321cccba70b3560f67adc82e0f5e
+        [options]
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: Visual Studio
+            compiler.runtime: MD
+            compiler.version: 16
+            os: Windows
+        [requires]
+            brotli/1.1.0:7e52046413f1e13a5fa19e3d410c5b50df627c3f
+            bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5
+            expat/2.5.0:ce5788ba7e3bb7dc834e36b06df66c481f42c99a
+            fontconfig/2.14.2:7bdcd0ebc5985e64875ce195eb75728a18edbb87
+            freetype/2.13.2:27b2733304cef577b19f699fec3a5bdbefb36d16
+            glib/2.78.1:12d888a7f41df36537da27d0ec738aea62dee0f1
+            libffi/3.4.4:3fb49604f9c2f729b85ba3115852006824e72cab
+            libgettext/0.22:b3e4dccd9a7572a5a29c77cc68475a955d494ef7
+            libiconv/1.17:3fb49604f9c2f729b85ba3115852006824e72cab
+            libpng/1.6.40:ce650d9f1f1c1c0839cf0694a55c1351ddbed859
+            lzo/2.10:3fb49604f9c2f729b85ba3115852006824e72cab
+            pcre2/10.42:4958b335ae23c49b138435b977645c6c321f9662
+            pixman/0.42.2:3fb49604f9c2f729b85ba3115852006824e72cab
+            zlib/1.3:3fb49604f9c2f729b85ba3115852006824e72cab
+        Outdated from recipe: True
+
+    Package_ID: 0a94304274e9a56d1124ac57f48e2190c7a49cfc
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: clang
+            compiler.version: 12
+            os: Linux
+        [requires]
+            brotli/1.1.0:cf3facceeafd0924f2eadc031ac43cb02c18a694
+            bzip2/1.0.8:00c750ce60d90d17c6eb9a941db66d67f523d38f
+            expat/2.5.0:c0f084393d9413a84a01f8cbf9e6f763ddec5b25
+            fontconfig/2.14.2:4bfe85047f37aec8778ea9a877b450e6721d1d54
+            freetype/2.13.0:e80f0596acddadb0055027d04ac6a9875f44573e
+            glib/2.78.0:9f50e23c07b7143687cd55187082005023b39823
+            libelf/0.8.13:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            libffi/3.4.4:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            libmount/2.39:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            libpng/1.6.40:19fc519ce5f0d5346cdb87e25a3fd10100c4b7b6
+            libselinux/3.5:65c910116ee40993a35c3f0d88c416990bbccdcf
+            lzo/2.10:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            pcre2/10.42:99a3ad63fefb65a42e5fb9683d036c577d3f9b74
+            pixman/0.40.0:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            util-linux-libuuid/2.39:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+        Outdated from recipe: True
+
+    Package_ID: 16f0693867996b548ce77880b6b9c2eba19f7965
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: clang
+            compiler.version: 13
+            os: Linux
+        [requires]
+            brotli/1.1.0:fe39affd564f1190de170618664a9b22e735fd98
+            bzip2/1.0.8:4b8e817c304dca09c454779755c305c8386492dc
+            expat/2.5.0:bda3b885b603931b7d4be0212f9d0d3ccd8ae095
+            fontconfig/2.14.2:512c9c09ee36d28ef5f990d7b15ce626a69ba618
+            freetype/2.13.2:c967d80e6d265f705f7cf3e01fb0375ac9531a2c
+            glib/2.78.1:60861ad7bef4d12a84e3fe624b9ee2d1dfb9c8bc
+            libelf/0.8.13:0cac844812c2c06353def85537a0768d93e5455d
+            libffi/3.4.4:0cac844812c2c06353def85537a0768d93e5455d
+            libmount/2.39:0cac844812c2c06353def85537a0768d93e5455d
+            libpng/1.6.40:6144ce2c6ed921dcb5dc1931575eebf43001f824
+            libselinux/3.5:f7348a11771fc38d1d4612b0ae3469f64abbcf13
+            lzo/2.10:0cac844812c2c06353def85537a0768d93e5455d
+            pcre2/10.42:5e19384032d68ee9831f417b80f17911b909ba1c
+            pixman/0.42.2:0cac844812c2c06353def85537a0768d93e5455d
+            util-linux-libuuid/2.39.2:0cac844812c2c06353def85537a0768d93e5455d
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:0cac844812c2c06353def85537a0768d93e5455d
+        Outdated from recipe: True
+
+    Package_ID: 225397e89486069d5422b9b7c9063c022f9cb940
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 5
+            os: Linux
+        [requires]
+            brotli/1.1.0:a75b81d8594a44d34a32f08564f32c5d06a912ea
+            bzip2/1.0.8:3df6ebb8a308d309e882b21988fd9ea103560e16
+            expat/2.5.0:b025735bb0d121754b0b4aaae6c02d3b9546c56f
+            fontconfig/2.14.2:1dd5f947341f0c35b104c3cbc22073e69527248e
+            freetype/2.13.2:bf05ac88aac1986abd35f257eeb0064299824400
+            glib/2.78.1:1d68fc27afc4d63572845a4888d4a2b595821e3f
+            libelf/0.8.13:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libffi/3.4.4:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libmount/2.39:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libpng/1.6.40:b4e19c2a9f411079edce0e39c7f8fa0db025a2ad
+            libselinux/3.5:cad8a1faed4c8609424871dd208f18af9db1e8bf
+            lzo/2.10:76f87539fc90ff313e0b3182641a9bb558a717d2
+            pcre2/10.42:81d8b745adfb126566532e259d43cc547bea5ad2
+            pixman/0.42.2:76f87539fc90ff313e0b3182641a9bb558a717d2
+            util-linux-libuuid/2.39.2:76f87539fc90ff313e0b3182641a9bb558a717d2
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:76f87539fc90ff313e0b3182641a9bb558a717d2
+        Outdated from recipe: True
+
+    Package_ID: 260f5172296e9e854c50cd41f786f8dee5fedb57
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 5
+            os: Linux
+        [requires]
+            brotli/1.1.0:a75b81d8594a44d34a32f08564f32c5d06a912ea
+            bzip2/1.0.8:3df6ebb8a308d309e882b21988fd9ea103560e16
+            expat/2.6.0:b025735bb0d121754b0b4aaae6c02d3b9546c56f
+            fontconfig/2.15.0:1dd5f947341f0c35b104c3cbc22073e69527248e
+            freetype/2.13.2:bf05ac88aac1986abd35f257eeb0064299824400
+            glib/2.78.3:1d68fc27afc4d63572845a4888d4a2b595821e3f
+            libelf/0.8.13:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libffi/3.4.4:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libmount/2.39:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libpng/1.6.43:b4e19c2a9f411079edce0e39c7f8fa0db025a2ad
+            libselinux/3.5:cad8a1faed4c8609424871dd208f18af9db1e8bf
+            lzo/2.10:76f87539fc90ff313e0b3182641a9bb558a717d2
+            pcre2/10.42:81d8b745adfb126566532e259d43cc547bea5ad2
+            pixman/0.43.4:76f87539fc90ff313e0b3182641a9bb558a717d2
+            util-linux-libuuid/2.39.2:76f87539fc90ff313e0b3182641a9bb558a717d2
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3.1:76f87539fc90ff313e0b3182641a9bb558a717d2
+        Outdated from recipe: True
+
+    Package_ID: 29b07c073c9a4b2e7e4eb47a7a3bd7275dee2bed
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: gcc
+            compiler.version: 11
+            os: Linux
+        [requires]
+            brotli/1.1.0:48127b2f4232777c59f7ab155fabb382e4b944ef
+            bzip2/1.0.8:76bd63d0cd275bc555bda09b7f93740254ba3515
+            expat/2.6.0:3242ee86fec793e7767fb97cb42848d950351d05
+            fontconfig/2.15.0:ea5ce2baf6e10d942f71a6cbfd9565e7191c5ef9
+            freetype/2.13.2:16420e126bff6efa746eed7822d919e143df9a40
+            glib/2.78.3:e27ab84c1793bef42b8a44197c6f60f2964e39a5
+            libelf/0.8.13:be27726f9885116da1158027505be62e913cd585
+            libffi/3.4.4:be27726f9885116da1158027505be62e913cd585
+            libmount/2.39:be27726f9885116da1158027505be62e913cd585
+            libpng/1.6.43:603748838ea57779fa3e5d2c1654692233802817
+            libselinux/3.5:8d38dba775b5b3ecb4168361cb2abb897a09115a
+            lzo/2.10:be27726f9885116da1158027505be62e913cd585
+            pcre2/10.42:5b399045313d700fec29aea700e1ff40adf0f94f
+            pixman/0.43.4:be27726f9885116da1158027505be62e913cd585
+            util-linux-libuuid/2.39.2:be27726f9885116da1158027505be62e913cd585
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3.1:be27726f9885116da1158027505be62e913cd585
+        Outdated from recipe: True
+
+    Package_ID: 2cff98b95cec2ce113bc67fd9a90f3e56ac30979
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 7
+            os: Linux
+        [requires]
+            brotli/1.1.0:a116154be20dd85c3f4dfd0583377d9493228be4
+            bzip2/1.0.8:b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3
+            expat/2.5.0:d2aa7fde96817bd9d6d001c15e0479bf82133afe
+            fontconfig/2.14.2:6971be90169da0042af6524e698d07979837e188
+            freetype/2.13.2:718e788d18f87efa6b201b7718f1ffac72f4ad26
+            glib/2.78.1:e6101fdf9edfaeac7ef98ff8c56b9d07577e2b00
+            libelf/0.8.13:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libffi/3.4.4:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libmount/2.39:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libpng/1.6.40:9378b660d2155d53cea1126fa13164a3bfa59f2c
+            libselinux/3.5:0bb503419c6bf6dd4489726d1b38fdf514902a37
+            lzo/2.10:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            pcre2/10.42:d74761cf0a54bc9387cd4323e35362568072e755
+            pixman/0.42.2:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            util-linux-libuuid/2.39.2:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:d50a0d523d98c15bb147b18fa7d203887c38be8b
+        Outdated from recipe: True
+
+    Package_ID: 3a1fce7a85a678a620d6073750c58f5c442c89cb
+        [options]
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: Visual Studio
+            compiler.runtime: MD
+            compiler.version: 16
+            os: Windows
+        [requires]
+            brotli/1.1.0:7e52046413f1e13a5fa19e3d410c5b50df627c3f
+            bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5
+            expat/2.6.0:ce5788ba7e3bb7dc834e36b06df66c481f42c99a
+            fontconfig/2.15.0:7bdcd0ebc5985e64875ce195eb75728a18edbb87
+            freetype/2.13.2:27b2733304cef577b19f699fec3a5bdbefb36d16
+            glib/2.78.3:12d888a7f41df36537da27d0ec738aea62dee0f1
+            libffi/3.4.4:3fb49604f9c2f729b85ba3115852006824e72cab
+            libgettext/0.22:b3e4dccd9a7572a5a29c77cc68475a955d494ef7
+            libiconv/1.17:3fb49604f9c2f729b85ba3115852006824e72cab
+            libpng/1.6.43:ce650d9f1f1c1c0839cf0694a55c1351ddbed859
+            lzo/2.10:3fb49604f9c2f729b85ba3115852006824e72cab
+            pcre2/10.42:4958b335ae23c49b138435b977645c6c321f9662
+            pixman/0.43.4:3fb49604f9c2f729b85ba3115852006824e72cab
+            zlib/1.3.1:3fb49604f9c2f729b85ba3115852006824e72cab
+        Outdated from recipe: True
+
+    Package_ID: 451b3d82b1499f1cda551ad335c8b06708963e85
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: gcc
+            compiler.version: 9
+            os: Linux
+        [requires]
+            brotli/1.1.0:eafd21ba552ece5698161c2a2cab1d824f5d0a59
+            bzip2/1.0.8:1d984b241c5c01f748cafe0b37dc9567ed236fef
+            expat/2.5.0:224956cd189fb14f9771be519f4fd0815adc0e17
+            fontconfig/2.14.2:77ebea90a2e14c778bd8f4b22809dc833e2bcaef
+            freetype/2.13.0:561987c2b31e7c0ef595deb204badca7d49a4877
+            glib/2.78.0:4ce1d09e9f7a7375fafff3d16bedde1c402d9482
+            libelf/0.8.13:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            libffi/3.4.4:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            libmount/2.39:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            libpng/1.6.40:c8067f20c2a81f16fd56a973da9492a93ea52a75
+            libselinux/3.5:81d07df1a44f8b25d799a115243b7631d3929598
+            lzo/2.10:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            pcre2/10.42:6b915bc3070fc45ccadb8e7d2bd291033a1a664d
+            pixman/0.40.0:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            util-linux-libuuid/2.39:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:23b828d52c0630e6b0b96d2945419feb7843c4f8
+        Outdated from recipe: True
+
+    Package_ID: 462ab97abd96500100a52759d8e83146279640de
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: gcc
+            compiler.version: 11
+            os: Linux
+        [requires]
+            brotli/1.1.0:48127b2f4232777c59f7ab155fabb382e4b944ef
+            bzip2/1.0.8:76bd63d0cd275bc555bda09b7f93740254ba3515
+            expat/2.5.0:3242ee86fec793e7767fb97cb42848d950351d05
+            fontconfig/2.14.2:ea5ce2baf6e10d942f71a6cbfd9565e7191c5ef9
+            freetype/2.13.0:16420e126bff6efa746eed7822d919e143df9a40
+            glib/2.78.0:e27ab84c1793bef42b8a44197c6f60f2964e39a5
+            libelf/0.8.13:be27726f9885116da1158027505be62e913cd585
+            libffi/3.4.4:be27726f9885116da1158027505be62e913cd585
+            libmount/2.39:be27726f9885116da1158027505be62e913cd585
+            libpng/1.6.40:603748838ea57779fa3e5d2c1654692233802817
+            libselinux/3.5:8d38dba775b5b3ecb4168361cb2abb897a09115a
+            lzo/2.10:be27726f9885116da1158027505be62e913cd585
+            pcre2/10.42:5b399045313d700fec29aea700e1ff40adf0f94f
+            pixman/0.40.0:be27726f9885116da1158027505be62e913cd585
+            util-linux-libuuid/2.39:be27726f9885116da1158027505be62e913cd585
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:be27726f9885116da1158027505be62e913cd585
+        Outdated from recipe: True
+
+    Package_ID: 4947144c63aec1938407a20e3470015ee4e7a2e6
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:7b13aac265b6cd52c8312b07b2769a17e970b036
+            bzip2/1.0.8:a354ec84d9aa7012cfbeb01b59c5daa2780bb252
+            expat/2.5.0:a2fdc7f179bbe8c5db4c842ce67a3799914f233c
+            fontconfig/2.14.2:dc65abfe99a711449f2a3c63f1cc57414799cb5d
+            freetype/2.13.0:41f5f66f7d00992efb1870bcfaf56b01c679aed8
+            glib/2.78.0:c7ecf7a7363097687191674d24fc3cc84687928c
+            libelf/0.8.13:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            libffi/3.4.4:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            libgettext/0.22:37b273fdb3cb050132a55c416d3ca02f66d01df5
+            libiconv/1.17:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            libpng/1.6.40:93d0d0ac1c261471eea08ce1f0d5d7aaf2b280ca
+            lzo/2.10:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            pcre2/10.42:bfe27188ce1586f299c1a16f76982ce58c188ee2
+            pixman/0.40.0:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            zlib/1.3:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+        Outdated from recipe: True
+
+    Package_ID: 4c2cb3e55b4e507931be7f04817b78d6e5d9893c
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 5
+            os: Linux
+        [requires]
+            brotli/1.1.0:a75b81d8594a44d34a32f08564f32c5d06a912ea
+            bzip2/1.0.8:3df6ebb8a308d309e882b21988fd9ea103560e16
+            expat/2.5.0:b025735bb0d121754b0b4aaae6c02d3b9546c56f
+            fontconfig/2.14.2:1dd5f947341f0c35b104c3cbc22073e69527248e
+            freetype/2.13.0:bf05ac88aac1986abd35f257eeb0064299824400
+            glib/2.78.0:1d68fc27afc4d63572845a4888d4a2b595821e3f
+            libelf/0.8.13:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libffi/3.4.4:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libmount/2.39:76f87539fc90ff313e0b3182641a9bb558a717d2
+            libpng/1.6.40:b4e19c2a9f411079edce0e39c7f8fa0db025a2ad
+            libselinux/3.5:cad8a1faed4c8609424871dd208f18af9db1e8bf
+            lzo/2.10:76f87539fc90ff313e0b3182641a9bb558a717d2
+            pcre2/10.42:81d8b745adfb126566532e259d43cc547bea5ad2
+            pixman/0.40.0:76f87539fc90ff313e0b3182641a9bb558a717d2
+            util-linux-libuuid/2.39:76f87539fc90ff313e0b3182641a9bb558a717d2
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:76f87539fc90ff313e0b3182641a9bb558a717d2
+        Outdated from recipe: True
+
+    Package_ID: 602beed13834150491d7a60ac73c1660cae1a065
+        [options]
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: Visual Studio
+            compiler.runtime: MD
+            compiler.version: 16
+            os: Windows
+        [requires]
+            brotli/1.1.0:7e52046413f1e13a5fa19e3d410c5b50df627c3f
+            bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5
+            expat/2.5.0:ce5788ba7e3bb7dc834e36b06df66c481f42c99a
+            fontconfig/2.14.2:7bdcd0ebc5985e64875ce195eb75728a18edbb87
+            freetype/2.13.0:27b2733304cef577b19f699fec3a5bdbefb36d16
+            glib/2.78.0:12d888a7f41df36537da27d0ec738aea62dee0f1
+            libffi/3.4.4:3fb49604f9c2f729b85ba3115852006824e72cab
+            libgettext/0.22:b3e4dccd9a7572a5a29c77cc68475a955d494ef7
+            libiconv/1.17:3fb49604f9c2f729b85ba3115852006824e72cab
+            libpng/1.6.40:ce650d9f1f1c1c0839cf0694a55c1351ddbed859
+            lzo/2.10:3fb49604f9c2f729b85ba3115852006824e72cab
+            pcre2/10.42:4958b335ae23c49b138435b977645c6c321f9662
+            pixman/0.40.0:3fb49604f9c2f729b85ba3115852006824e72cab
+            zlib/1.3:3fb49604f9c2f729b85ba3115852006824e72cab
+        Outdated from recipe: True
+
+    Package_ID: 625f6958c68687fd1107504a6795a32d95f9d7e3
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 11
+            os: Linux
+        [requires]
+            brotli/1.1.0:e1dc2bcd4b907868f16d7f3b15e15c3bb07067f2
+            bzip2/1.0.8:c32092bf4d4bb47cf962af898e02823f499b017e
+            expat/2.6.0:2bf99ee01cda593d5986afc64acf262ad576354f
+            fontconfig/2.15.0:91934fc8bcc809a17bd34af66d8491f41cb49e99
+            freetype/2.13.2:7d544953cc6cdd1bd06a4e40fc9904c650a37eb2
+            glib/2.78.3:35a2987206414fc1968e948dd2b71196d6dcb604
+            libelf/0.8.13:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libffi/3.4.4:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libmount/2.39:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libpng/1.6.43:025ffc7158b5e62f5f3ed9af91d48958d216f972
+            libselinux/3.5:5c42e2b98e6985c83b03db665f0c318cb6134b4e
+            lzo/2.10:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            pcre2/10.42:1dfef2d0e403379e1d4f34660b435fba4caeec11
+            pixman/0.43.4:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            util-linux-libuuid/2.39.2:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3.1:dfbe50feef7f3c6223a476cd5aeadb687084a646
+        Outdated from recipe: True
+
+    Package_ID: 6c6a4c0a9e277be40b0f9de7ede2ee43441cc018
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: clang
+            compiler.version: 13
+            os: Linux
+        [requires]
+            brotli/1.1.0:fe39affd564f1190de170618664a9b22e735fd98
+            bzip2/1.0.8:4b8e817c304dca09c454779755c305c8386492dc
+            expat/2.5.0:bda3b885b603931b7d4be0212f9d0d3ccd8ae095
+            fontconfig/2.14.2:512c9c09ee36d28ef5f990d7b15ce626a69ba618
+            freetype/2.13.0:c967d80e6d265f705f7cf3e01fb0375ac9531a2c
+            glib/2.78.0:60861ad7bef4d12a84e3fe624b9ee2d1dfb9c8bc
+            libelf/0.8.13:0cac844812c2c06353def85537a0768d93e5455d
+            libffi/3.4.4:0cac844812c2c06353def85537a0768d93e5455d
+            libmount/2.39:0cac844812c2c06353def85537a0768d93e5455d
+            libpng/1.6.40:6144ce2c6ed921dcb5dc1931575eebf43001f824
+            libselinux/3.5:f7348a11771fc38d1d4612b0ae3469f64abbcf13
+            lzo/2.10:0cac844812c2c06353def85537a0768d93e5455d
+            pcre2/10.42:5e19384032d68ee9831f417b80f17911b909ba1c
+            pixman/0.40.0:0cac844812c2c06353def85537a0768d93e5455d
+            util-linux-libuuid/2.39:0cac844812c2c06353def85537a0768d93e5455d
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:0cac844812c2c06353def85537a0768d93e5455d
+        Outdated from recipe: True
+
+    Package_ID: 703bcc640002869a53960c4449d3825ff8a103e6
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 9
+            os: Linux
+        [requires]
+            brotli/1.1.0:b21556a366bf52552d3a00ce381b508d0563e081
+            bzip2/1.0.8:da606cf731e334010b0bf6e85a2a6f891b9f36b0
+            expat/2.6.0:c215f67ac7fc6a34d9d0fb90b0450016be569d86
+            fontconfig/2.15.0:b172ac37518ca059ccac0be9c3eb29e5179ecf1e
+            freetype/2.13.2:f1014dc4f9380132c471ceb778980949abf136d3
+            glib/2.78.3:06c63123a2bb8b6d3ea5dcae501525df32efb7b5
+            libelf/0.8.13:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libffi/3.4.4:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libmount/2.39:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libpng/1.6.43:7929d8ecf29c60d74fd3c1f6cb78bbb3cb49c0c7
+            libselinux/3.5:6b0384e3aaa343ede5d2bd125e37a0198206de42
+            lzo/2.10:6af9cc7cb931c5ad942174fd7838eb655717c709
+            pcre2/10.42:647f8233073b10c84d51b1833c74f5a1cb8e8604
+            pixman/0.43.4:6af9cc7cb931c5ad942174fd7838eb655717c709
+            util-linux-libuuid/2.39.2:6af9cc7cb931c5ad942174fd7838eb655717c709
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3.1:6af9cc7cb931c5ad942174fd7838eb655717c709
+        Outdated from recipe: True
+
+    Package_ID: 7da248e923e030bc3b5469eb92d9f7a18607e9e3
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 10
+            os: Linux
+        [requires]
+            brotli/1.1.0:bfdbb855937046dc347fec082c59cb7f733e8855
+            bzip2/1.0.8:91a8b22c2c5a149bc617cfc06cdd21bf23b12567
+            expat/2.5.0:859363389e24f9402c19222fd527806e3c413615
+            fontconfig/2.14.2:67f7041625d33a5a3c06a438779bda65fadfab87
+            freetype/2.13.2:bca7b8880d98719d556dd526ce612be20a815922
+            glib/2.78.1:4be405ef908fc5f16a71e35f9bb6cb523fa0203f
+            libelf/0.8.13:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            libffi/3.4.4:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            libmount/2.39:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            libpng/1.6.40:d5b3dc27faecfb4eb94086722000dd65bb9e6bff
+            libselinux/3.5:f0f1b3d0025db3e0af8917e6c9e9483ec01dd046
+            lzo/2.10:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            pcre2/10.42:2ca4f154036b3ae530b4dad3c85f5ed026cc0e95
+            pixman/0.42.2:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            util-linux-libuuid/2.39.2:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+        Outdated from recipe: True
+
+    Package_ID: 8098347825649d9fd3e21c49992446a2a2193ad4
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 9
+            os: Linux
+        [requires]
+            brotli/1.1.0:b21556a366bf52552d3a00ce381b508d0563e081
+            bzip2/1.0.8:da606cf731e334010b0bf6e85a2a6f891b9f36b0
+            expat/2.5.0:c215f67ac7fc6a34d9d0fb90b0450016be569d86
+            fontconfig/2.14.2:b172ac37518ca059ccac0be9c3eb29e5179ecf1e
+            freetype/2.13.0:f1014dc4f9380132c471ceb778980949abf136d3
+            glib/2.78.0:06c63123a2bb8b6d3ea5dcae501525df32efb7b5
+            libelf/0.8.13:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libffi/3.4.4:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libmount/2.39:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libpng/1.6.40:7929d8ecf29c60d74fd3c1f6cb78bbb3cb49c0c7
+            libselinux/3.5:6b0384e3aaa343ede5d2bd125e37a0198206de42
+            lzo/2.10:6af9cc7cb931c5ad942174fd7838eb655717c709
+            pcre2/10.42:647f8233073b10c84d51b1833c74f5a1cb8e8604
+            pixman/0.40.0:6af9cc7cb931c5ad942174fd7838eb655717c709
+            util-linux-libuuid/2.39:6af9cc7cb931c5ad942174fd7838eb655717c709
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:6af9cc7cb931c5ad942174fd7838eb655717c709
+        Outdated from recipe: True
+
+    Package_ID: 8c54d7a32cd5f9e8df01750e540c151090d98162
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: gcc
+            compiler.version: 10
+            os: Linux
+        [requires]
+            brotli/1.1.0:517500d4d58186d46f0327be71f61addaf262c9a
+            bzip2/1.0.8:9f84c49e2143828a044b1675a587477e091c9f9f
+            expat/2.5.0:52ba1051f7a01a0e4cc9d8d3af226cfb12c4a668
+            fontconfig/2.14.2:a846941cff9a001472db68bb2c4cf489001f89d9
+            freetype/2.13.2:e15ddb7f0e4c7161333eb7f4a05beeeaea5df24b
+            glib/2.78.1:6b4cb21e6b358997dd7c4a4e646572dc722e509f
+            libelf/0.8.13:75e99b627c196b65c439728670655ec3c366b334
+            libffi/3.4.4:75e99b627c196b65c439728670655ec3c366b334
+            libmount/2.39:75e99b627c196b65c439728670655ec3c366b334
+            libpng/1.6.40:9f5f4756d1382e451f085ea752ddbf2d02a13e17
+            libselinux/3.5:7310d6f1737eebb13e9757812e8def367e4c0f59
+            lzo/2.10:75e99b627c196b65c439728670655ec3c366b334
+            pcre2/10.42:b7d36848637a312c1a044b729b782ed664817143
+            pixman/0.42.2:75e99b627c196b65c439728670655ec3c366b334
+            util-linux-libuuid/2.39.2:75e99b627c196b65c439728670655ec3c366b334
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:75e99b627c196b65c439728670655ec3c366b334
+        Outdated from recipe: True
+
+    Package_ID: 928c8d2281fb92205d4ac524c6944517c936433b
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: clang
+            compiler.version: 12
+            os: Linux
+        [requires]
+            brotli/1.1.0:115c62defd589e34694d333bf43abcf565945a4f
+            bzip2/1.0.8:72e6ed737694b8ba1d365cdcf09a48918afe7445
+            expat/2.5.0:f8070f1b695390936bec3b4c6d435587289842c4
+            fontconfig/2.14.2:5fe9a8a2b0c30218db1fc547d52e59a348ed5a34
+            freetype/2.13.2:6f61449756bce10cb35f0c1f7e6eacb5a7b450ad
+            glib/2.78.1:5578ac4a7e3c23ebd720a3464721197168e32c5b
+            libelf/0.8.13:9387155579217a8eec37b28e121e419c4350656c
+            libffi/3.4.4:9387155579217a8eec37b28e121e419c4350656c
+            libmount/2.39:9387155579217a8eec37b28e121e419c4350656c
+            libpng/1.6.40:332bdbdd7cea7dcdad977e6868163836941c2743
+            libselinux/3.5:aa918da92cb75756fb7167116e08b1326604fea5
+            lzo/2.10:9387155579217a8eec37b28e121e419c4350656c
+            pcre2/10.42:1427a6cf3083df57077db1bf0f7537713a6a481e
+            pixman/0.42.2:9387155579217a8eec37b28e121e419c4350656c
+            util-linux-libuuid/2.39.2:9387155579217a8eec37b28e121e419c4350656c
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:9387155579217a8eec37b28e121e419c4350656c
+        Outdated from recipe: True
+
+    Package_ID: 92eb7b9a9a8b71bba884a24dbd4205b87dc8da61
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: gcc
+            compiler.version: 9
+            os: Linux
+        [requires]
+            brotli/1.1.0:eafd21ba552ece5698161c2a2cab1d824f5d0a59
+            bzip2/1.0.8:1d984b241c5c01f748cafe0b37dc9567ed236fef
+            expat/2.5.0:224956cd189fb14f9771be519f4fd0815adc0e17
+            fontconfig/2.14.2:77ebea90a2e14c778bd8f4b22809dc833e2bcaef
+            freetype/2.13.2:561987c2b31e7c0ef595deb204badca7d49a4877
+            glib/2.78.1:4ce1d09e9f7a7375fafff3d16bedde1c402d9482
+            libelf/0.8.13:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            libffi/3.4.4:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            libmount/2.39:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            libpng/1.6.40:c8067f20c2a81f16fd56a973da9492a93ea52a75
+            libselinux/3.5:81d07df1a44f8b25d799a115243b7631d3929598
+            lzo/2.10:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            pcre2/10.42:6b915bc3070fc45ccadb8e7d2bd291033a1a664d
+            pixman/0.42.2:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            util-linux-libuuid/2.39.2:23b828d52c0630e6b0b96d2945419feb7843c4f8
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:23b828d52c0630e6b0b96d2945419feb7843c4f8
+        Outdated from recipe: True
+
+    Package_ID: 93dc73063991f93671e442e998c463ca10e73268
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 7
+            os: Linux
+        [requires]
+            brotli/1.1.0:a116154be20dd85c3f4dfd0583377d9493228be4
+            bzip2/1.0.8:b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3
+            expat/2.5.0:d2aa7fde96817bd9d6d001c15e0479bf82133afe
+            fontconfig/2.14.2:6971be90169da0042af6524e698d07979837e188
+            freetype/2.13.0:718e788d18f87efa6b201b7718f1ffac72f4ad26
+            glib/2.78.0:e6101fdf9edfaeac7ef98ff8c56b9d07577e2b00
+            libelf/0.8.13:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libffi/3.4.4:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libmount/2.39:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libpng/1.6.40:9378b660d2155d53cea1126fa13164a3bfa59f2c
+            libselinux/3.5:0bb503419c6bf6dd4489726d1b38fdf514902a37
+            lzo/2.10:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            pcre2/10.42:d74761cf0a54bc9387cd4323e35362568072e755
+            pixman/0.40.0:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            util-linux-libuuid/2.39:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:d50a0d523d98c15bb147b18fa7d203887c38be8b
+        Outdated from recipe: True
+
+    Package_ID: 95921a169eacf858c317d90b8ac5c482677fa4f8
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: clang
+            compiler.version: 13
+            os: Linux
+        [requires]
+            brotli/1.1.0:05d92be726473493b62deef4a48694e5dba1aae8
+            bzip2/1.0.8:1718811d87d80de7c9031968965934b738936751
+            expat/2.6.0:bef71e5238b7b03b858f1fa7a6f20fae013f892b
+            fontconfig/2.15.0:2060f4d636307ba0fce97c3dc7c7bacbd003eb77
+            freetype/2.13.2:add94f9860349878afccb4f63c3468dc8f88b792
+            glib/2.78.3:de449d9f2987bd2b9eddacfd4e763f2c79c3b060
+            libelf/0.8.13:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libffi/3.4.4:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libmount/2.39:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libpng/1.6.43:2b593a4a3e3ea6df0d971830f53d5cf53f5729db
+            libselinux/3.5:a7fea9711f468991f0cf9fa6dafae31f37b5f629
+            lzo/2.10:63c2a85d57849e261f98f935b93ecac31ba71b84
+            pcre2/10.42:72e418e535172257d605303061c403b7f485466e
+            pixman/0.43.4:63c2a85d57849e261f98f935b93ecac31ba71b84
+            util-linux-libuuid/2.39.2:63c2a85d57849e261f98f935b93ecac31ba71b84
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3.1:63c2a85d57849e261f98f935b93ecac31ba71b84
+        Outdated from recipe: True
+
+    Package_ID: 9712826706e30584e9ed9f49d8a578dd9531d9a6
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: armv8
+            build_type: Release
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:be02a40a028d484cdb3fe3bd1917311741f45707
+            bzip2/1.0.8:2b8e4ed96946ad0a4cd2c6e1e01636aa2a421589
+            expat/2.6.0:38ab6a38f66c07eba71698df5ea91b7fed6840bf
+            fontconfig/2.15.0:352f4a258d12c3fe539768799ad927e677d50a9e
+            freetype/2.13.2:3ca56ab0f053cd9252149b736d1f4aa7e7bcfd04
+            glib/2.78.3:4f172310f7fe70fa425b01f63417f95b29b61951
+            libelf/0.8.13:095512ed878f14a09dd732e9f6868729dd437529
+            libffi/3.4.4:095512ed878f14a09dd732e9f6868729dd437529
+            libgettext/0.22:fc527c40a27c7867614790f1a29098302b9939e1
+            libiconv/1.17:095512ed878f14a09dd732e9f6868729dd437529
+            libpng/1.6.43:d3500a8154832cbdef2b3c64b5ea936fb3db8fae
+            lzo/2.10:095512ed878f14a09dd732e9f6868729dd437529
+            pcre2/10.42:4d89fddebeabddec8de38f1544ceb6c279bebbcf
+            pixman/0.43.4:095512ed878f14a09dd732e9f6868729dd437529
+            zlib/1.3.1:095512ed878f14a09dd732e9f6868729dd437529
+        Outdated from recipe: True
+
+    Package_ID: 9b09d3e88e168cc5c86f2ba1a2fd85f9042838d3
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 11
+            os: Linux
+        [requires]
+            brotli/1.1.0:e1dc2bcd4b907868f16d7f3b15e15c3bb07067f2
+            bzip2/1.0.8:c32092bf4d4bb47cf962af898e02823f499b017e
+            expat/2.5.0:2bf99ee01cda593d5986afc64acf262ad576354f
+            fontconfig/2.14.2:91934fc8bcc809a17bd34af66d8491f41cb49e99
+            freetype/2.13.2:7d544953cc6cdd1bd06a4e40fc9904c650a37eb2
+            glib/2.78.1:35a2987206414fc1968e948dd2b71196d6dcb604
+            libelf/0.8.13:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libffi/3.4.4:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libmount/2.39:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libpng/1.6.40:025ffc7158b5e62f5f3ed9af91d48958d216f972
+            libselinux/3.5:5c42e2b98e6985c83b03db665f0c318cb6134b4e
+            lzo/2.10:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            pcre2/10.42:1dfef2d0e403379e1d4f34660b435fba4caeec11
+            pixman/0.42.2:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            util-linux-libuuid/2.39.2:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:dfbe50feef7f3c6223a476cd5aeadb687084a646
+        Outdated from recipe: True
+
+    Package_ID: 9e06d4a4993780b94fd4d74cefdade54893b032a
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 11
+            os: Linux
+        [requires]
+            brotli/1.1.0:e1dc2bcd4b907868f16d7f3b15e15c3bb07067f2
+            bzip2/1.0.8:c32092bf4d4bb47cf962af898e02823f499b017e
+            expat/2.5.0:2bf99ee01cda593d5986afc64acf262ad576354f
+            fontconfig/2.14.2:91934fc8bcc809a17bd34af66d8491f41cb49e99
+            freetype/2.13.0:7d544953cc6cdd1bd06a4e40fc9904c650a37eb2
+            glib/2.78.0:35a2987206414fc1968e948dd2b71196d6dcb604
+            libelf/0.8.13:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libffi/3.4.4:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libmount/2.39:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            libpng/1.6.40:025ffc7158b5e62f5f3ed9af91d48958d216f972
+            libselinux/3.5:5c42e2b98e6985c83b03db665f0c318cb6134b4e
+            lzo/2.10:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            pcre2/10.42:1dfef2d0e403379e1d4f34660b435fba4caeec11
+            pixman/0.40.0:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            util-linux-libuuid/2.39:dfbe50feef7f3c6223a476cd5aeadb687084a646
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:dfbe50feef7f3c6223a476cd5aeadb687084a646
+        Outdated from recipe: True
+
+    Package_ID: a336bac291d8ec6a55c6257f3266f9a8760c7403
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 9
+            os: Linux
+        [requires]
+            brotli/1.1.0:b21556a366bf52552d3a00ce381b508d0563e081
+            bzip2/1.0.8:da606cf731e334010b0bf6e85a2a6f891b9f36b0
+            expat/2.5.0:c215f67ac7fc6a34d9d0fb90b0450016be569d86
+            fontconfig/2.14.2:b172ac37518ca059ccac0be9c3eb29e5179ecf1e
+            freetype/2.13.2:f1014dc4f9380132c471ceb778980949abf136d3
+            glib/2.78.1:06c63123a2bb8b6d3ea5dcae501525df32efb7b5
+            libelf/0.8.13:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libffi/3.4.4:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libmount/2.39:6af9cc7cb931c5ad942174fd7838eb655717c709
+            libpng/1.6.40:7929d8ecf29c60d74fd3c1f6cb78bbb3cb49c0c7
+            libselinux/3.5:6b0384e3aaa343ede5d2bd125e37a0198206de42
+            lzo/2.10:6af9cc7cb931c5ad942174fd7838eb655717c709
+            pcre2/10.42:647f8233073b10c84d51b1833c74f5a1cb8e8604
+            pixman/0.42.2:6af9cc7cb931c5ad942174fd7838eb655717c709
+            util-linux-libuuid/2.39.2:6af9cc7cb931c5ad942174fd7838eb655717c709
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:6af9cc7cb931c5ad942174fd7838eb655717c709
+        Outdated from recipe: True
+
+    Package_ID: a7036d1f452f5e8b435c6de0d2fbc2d2dccd9ff7
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: armv8
+            build_type: Release
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:be02a40a028d484cdb3fe3bd1917311741f45707
+            bzip2/1.0.8:2b8e4ed96946ad0a4cd2c6e1e01636aa2a421589
+            expat/2.5.0:38ab6a38f66c07eba71698df5ea91b7fed6840bf
+            fontconfig/2.14.2:352f4a258d12c3fe539768799ad927e677d50a9e
+            freetype/2.13.2:3ca56ab0f053cd9252149b736d1f4aa7e7bcfd04
+            glib/2.78.1:4f172310f7fe70fa425b01f63417f95b29b61951
+            libelf/0.8.13:095512ed878f14a09dd732e9f6868729dd437529
+            libffi/3.4.4:095512ed878f14a09dd732e9f6868729dd437529
+            libgettext/0.22:fc527c40a27c7867614790f1a29098302b9939e1
+            libiconv/1.17:095512ed878f14a09dd732e9f6868729dd437529
+            libpng/1.6.40:d3500a8154832cbdef2b3c64b5ea936fb3db8fae
+            lzo/2.10:095512ed878f14a09dd732e9f6868729dd437529
+            pcre2/10.42:4d89fddebeabddec8de38f1544ceb6c279bebbcf
+            pixman/0.42.2:095512ed878f14a09dd732e9f6868729dd437529
+            zlib/1.3:095512ed878f14a09dd732e9f6868729dd437529
+        Outdated from recipe: True
+
+    Package_ID: a943650c2c3da7d75e4cbbbd7b8922d1c23836e5
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: clang
+            compiler.version: 12
+            os: Linux
+        [requires]
+            brotli/1.1.0:cf3facceeafd0924f2eadc031ac43cb02c18a694
+            bzip2/1.0.8:00c750ce60d90d17c6eb9a941db66d67f523d38f
+            expat/2.5.0:c0f084393d9413a84a01f8cbf9e6f763ddec5b25
+            fontconfig/2.14.2:4bfe85047f37aec8778ea9a877b450e6721d1d54
+            freetype/2.13.2:e80f0596acddadb0055027d04ac6a9875f44573e
+            glib/2.78.1:9f50e23c07b7143687cd55187082005023b39823
+            libelf/0.8.13:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            libffi/3.4.4:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            libmount/2.39:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            libpng/1.6.40:19fc519ce5f0d5346cdb87e25a3fd10100c4b7b6
+            libselinux/3.5:65c910116ee40993a35c3f0d88c416990bbccdcf
+            lzo/2.10:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            pcre2/10.42:99a3ad63fefb65a42e5fb9683d036c577d3f9b74
+            pixman/0.42.2:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            util-linux-libuuid/2.39.2:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:cf142e38e022cf2a99aadebfd8f37ead3e935ad7
+        Outdated from recipe: True
+
+    Package_ID: a9cbd2cca48f68201b393a2b0752ea1532be86ad
+        [options]
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: Visual Studio
+            compiler.runtime: MDd
+            compiler.version: 16
+            os: Windows
+        [requires]
+            brotli/1.1.0:06a7a5848f39a2b1d31f3ee2414a17d463f68a34
+            bzip2/1.0.8:589a23dff5fdb23a7fb851223eb766480ead0a9a
+            expat/2.6.0:b49a4f13d5f917b326e0b0b876c9af8b30b9bf47
+            fontconfig/2.15.0:fa492913021a450fb67e4078f8090896e17a8985
+            freetype/2.13.2:c69bad48274e7fc45c887cddc32aa0459f0a81e0
+            glib/2.78.3:3a67eb6b80b652f26f4298468759fb8b37394aae
+            libffi/3.4.4:d057732059ea44a47760900cb5e4855d2bea8714
+            libgettext/0.22:e0c22822cdf05b624135e1696ae5cb784a23aeb3
+            libiconv/1.17:d057732059ea44a47760900cb5e4855d2bea8714
+            libpng/1.6.43:8b1ef0ec9599374db4689199730c00a0d5f4de36
+            lzo/2.10:d057732059ea44a47760900cb5e4855d2bea8714
+            pcre2/10.42:2e8119dcddebbc9d5753b8e12f06b903b0f1ae93
+            pixman/0.43.4:d057732059ea44a47760900cb5e4855d2bea8714
+            zlib/1.3.1:d057732059ea44a47760900cb5e4855d2bea8714
+        Outdated from recipe: True
+
+    Package_ID: b356000994aa7adb01df02e4a4439a5a37d9a998
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: clang
+            compiler.version: 13
+            os: Linux
+        [requires]
+            brotli/1.1.0:05d92be726473493b62deef4a48694e5dba1aae8
+            bzip2/1.0.8:1718811d87d80de7c9031968965934b738936751
+            expat/2.5.0:bef71e5238b7b03b858f1fa7a6f20fae013f892b
+            fontconfig/2.14.2:2060f4d636307ba0fce97c3dc7c7bacbd003eb77
+            freetype/2.13.0:add94f9860349878afccb4f63c3468dc8f88b792
+            glib/2.78.0:de449d9f2987bd2b9eddacfd4e763f2c79c3b060
+            libelf/0.8.13:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libffi/3.4.4:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libmount/2.39:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libpng/1.6.40:2b593a4a3e3ea6df0d971830f53d5cf53f5729db
+            libselinux/3.5:a7fea9711f468991f0cf9fa6dafae31f37b5f629
+            lzo/2.10:63c2a85d57849e261f98f935b93ecac31ba71b84
+            pcre2/10.42:72e418e535172257d605303061c403b7f485466e
+            pixman/0.40.0:63c2a85d57849e261f98f935b93ecac31ba71b84
+            util-linux-libuuid/2.39:63c2a85d57849e261f98f935b93ecac31ba71b84
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:63c2a85d57849e261f98f935b93ecac31ba71b84
+        Outdated from recipe: True
+
+    Package_ID: b3cc3b32dbdd0ba12ba7fd27d5a91c207a820b08
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: clang
+            compiler.version: 12
+            os: Linux
+        [requires]
+            brotli/1.1.0:115c62defd589e34694d333bf43abcf565945a4f
+            bzip2/1.0.8:72e6ed737694b8ba1d365cdcf09a48918afe7445
+            expat/2.5.0:f8070f1b695390936bec3b4c6d435587289842c4
+            fontconfig/2.14.2:5fe9a8a2b0c30218db1fc547d52e59a348ed5a34
+            freetype/2.13.0:6f61449756bce10cb35f0c1f7e6eacb5a7b450ad
+            glib/2.78.0:5578ac4a7e3c23ebd720a3464721197168e32c5b
+            libelf/0.8.13:9387155579217a8eec37b28e121e419c4350656c
+            libffi/3.4.4:9387155579217a8eec37b28e121e419c4350656c
+            libmount/2.39:9387155579217a8eec37b28e121e419c4350656c
+            libpng/1.6.40:332bdbdd7cea7dcdad977e6868163836941c2743
+            libselinux/3.5:aa918da92cb75756fb7167116e08b1326604fea5
+            lzo/2.10:9387155579217a8eec37b28e121e419c4350656c
+            pcre2/10.42:1427a6cf3083df57077db1bf0f7537713a6a481e
+            pixman/0.40.0:9387155579217a8eec37b28e121e419c4350656c
+            util-linux-libuuid/2.39:9387155579217a8eec37b28e121e419c4350656c
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:9387155579217a8eec37b28e121e419c4350656c
+        Outdated from recipe: True
+
+    Package_ID: ba68713da40490f2cfaf9901fd00984c0d267b50
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 10
+            os: Linux
+        [requires]
+            brotli/1.1.0:bfdbb855937046dc347fec082c59cb7f733e8855
+            bzip2/1.0.8:91a8b22c2c5a149bc617cfc06cdd21bf23b12567
+            expat/2.5.0:859363389e24f9402c19222fd527806e3c413615
+            fontconfig/2.14.2:67f7041625d33a5a3c06a438779bda65fadfab87
+            freetype/2.13.0:bca7b8880d98719d556dd526ce612be20a815922
+            glib/2.78.0:4be405ef908fc5f16a71e35f9bb6cb523fa0203f
+            libelf/0.8.13:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            libffi/3.4.4:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            libmount/2.39:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            libpng/1.6.40:d5b3dc27faecfb4eb94086722000dd65bb9e6bff
+            libselinux/3.5:f0f1b3d0025db3e0af8917e6c9e9483ec01dd046
+            lzo/2.10:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            pcre2/10.42:2ca4f154036b3ae530b4dad3c85f5ed026cc0e95
+            pixman/0.40.0:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            util-linux-libuuid/2.39:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:19729b9559f3ae196cad45cb2b97468ccb75dcd1
+        Outdated from recipe: True
+
+    Package_ID: c8de3f916f2ef599780b804182c23e7a0cdea102
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: armv8
+            build_type: Release
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:be02a40a028d484cdb3fe3bd1917311741f45707
+            bzip2/1.0.8:2b8e4ed96946ad0a4cd2c6e1e01636aa2a421589
+            expat/2.5.0:38ab6a38f66c07eba71698df5ea91b7fed6840bf
+            fontconfig/2.14.2:352f4a258d12c3fe539768799ad927e677d50a9e
+            freetype/2.13.0:3ca56ab0f053cd9252149b736d1f4aa7e7bcfd04
+            glib/2.78.0:4f172310f7fe70fa425b01f63417f95b29b61951
+            libelf/0.8.13:095512ed878f14a09dd732e9f6868729dd437529
+            libffi/3.4.4:095512ed878f14a09dd732e9f6868729dd437529
+            libgettext/0.22:fc527c40a27c7867614790f1a29098302b9939e1
+            libiconv/1.17:095512ed878f14a09dd732e9f6868729dd437529
+            libpng/1.6.40:d3500a8154832cbdef2b3c64b5ea936fb3db8fae
+            lzo/2.10:095512ed878f14a09dd732e9f6868729dd437529
+            pcre2/10.42:4d89fddebeabddec8de38f1544ceb6c279bebbcf
+            pixman/0.40.0:095512ed878f14a09dd732e9f6868729dd437529
+            zlib/1.3:095512ed878f14a09dd732e9f6868729dd437529
+        Outdated from recipe: True
+
+    Package_ID: c8e40cdc712da8e381df0789c1897fe3fe393293
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: gcc
+            compiler.version: 10
+            os: Linux
+        [requires]
+            brotli/1.1.0:517500d4d58186d46f0327be71f61addaf262c9a
+            bzip2/1.0.8:9f84c49e2143828a044b1675a587477e091c9f9f
+            expat/2.5.0:52ba1051f7a01a0e4cc9d8d3af226cfb12c4a668
+            fontconfig/2.14.2:a846941cff9a001472db68bb2c4cf489001f89d9
+            freetype/2.13.0:e15ddb7f0e4c7161333eb7f4a05beeeaea5df24b
+            glib/2.78.0:6b4cb21e6b358997dd7c4a4e646572dc722e509f
+            libelf/0.8.13:75e99b627c196b65c439728670655ec3c366b334
+            libffi/3.4.4:75e99b627c196b65c439728670655ec3c366b334
+            libmount/2.39:75e99b627c196b65c439728670655ec3c366b334
+            libpng/1.6.40:9f5f4756d1382e451f085ea752ddbf2d02a13e17
+            libselinux/3.5:7310d6f1737eebb13e9757812e8def367e4c0f59
+            lzo/2.10:75e99b627c196b65c439728670655ec3c366b334
+            pcre2/10.42:b7d36848637a312c1a044b729b782ed664817143
+            pixman/0.40.0:75e99b627c196b65c439728670655ec3c366b334
+            util-linux-libuuid/2.39:75e99b627c196b65c439728670655ec3c366b334
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:75e99b627c196b65c439728670655ec3c366b334
+        Outdated from recipe: True
+
+    Package_ID: c9f10f681c76e02f24ceddc062b0b4440764a62a
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:f8fcfceb458bc47e73827447adde37fedaef9a77
+            bzip2/1.0.8:f2848f95be36a5d770fc8e833993b621f703b507
+            expat/2.5.0:2ab4686b1dd553337a750e5da49af947c66a2400
+            fontconfig/2.14.2:9c3c6faeefd74716e3f3513174fab7a75181d8ba
+            freetype/2.13.0:926ec86ec76de2940f5d319a90b247e8ad515ede
+            glib/2.78.0:4c7fea75cfe3e28cb8336cbe8b1e36c35235f5a2
+            libelf/0.8.13:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            libffi/3.4.4:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            libgettext/0.22:093defb2b8902dbb1cd5737e8d24a7f794ccc2d9
+            libiconv/1.17:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            libpng/1.6.40:aa5d2c35e57d031363e527ecb0b07150ed151373
+            lzo/2.10:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            pcre2/10.42:6ceee2287080418db19f81b4ed8b89ecf615e8b2
+            pixman/0.40.0:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            zlib/1.3:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+        Outdated from recipe: True
+
+    Package_ID: ca1688e55f8886048cd663a76c6e9323f3fd9315
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:7b13aac265b6cd52c8312b07b2769a17e970b036
+            bzip2/1.0.8:a354ec84d9aa7012cfbeb01b59c5daa2780bb252
+            expat/2.5.0:a2fdc7f179bbe8c5db4c842ce67a3799914f233c
+            fontconfig/2.14.2:dc65abfe99a711449f2a3c63f1cc57414799cb5d
+            freetype/2.13.2:41f5f66f7d00992efb1870bcfaf56b01c679aed8
+            glib/2.78.1:c7ecf7a7363097687191674d24fc3cc84687928c
+            libelf/0.8.13:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            libffi/3.4.4:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            libgettext/0.22:37b273fdb3cb050132a55c416d3ca02f66d01df5
+            libiconv/1.17:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            libpng/1.6.40:93d0d0ac1c261471eea08ce1f0d5d7aaf2b280ca
+            lzo/2.10:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            pcre2/10.42:bfe27188ce1586f299c1a16f76982ce58c188ee2
+            pixman/0.42.2:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+            zlib/1.3:f0ce0f189afed95b41fb2faad2f2225a7eca0d22
+        Outdated from recipe: True
+
+    Package_ID: cb5e78779e4236516bee932ea4b89245a4ed6118
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: armv8
+            build_type: Debug
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:3346836f0dca63f7945d6ed17ed26d723bbc4291
+            bzip2/1.0.8:06955caeb41bcd97dbb7ebe09828eda1babd28fa
+            expat/2.6.0:8c3bf58f5a1c42c3db962024098ad6bfe7fd5e94
+            fontconfig/2.15.0:b3f48c19c4ca9d15dc1354fc12dde8affbbefbc7
+            freetype/2.13.2:146c09a196ea1079a31892d70916956dfd5e19da
+            glib/2.78.3:2b9fb10988721126fe8412374b317e14ddfb784e
+            libelf/0.8.13:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libffi/3.4.4:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libgettext/0.22:c8ba9d6f1c61c2b402385fd9257330e2c2f8713f
+            libiconv/1.17:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libpng/1.6.43:2735bd32af8b4a0686a53e104a3b95fd255d376f
+            lzo/2.10:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            pcre2/10.42:8b827986825b8d2910dd5f10427603aef3cfa35e
+            pixman/0.43.4:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            zlib/1.3.1:3558c54d13382045caaf9174821b7c2ba01fc8bc
+        Outdated from recipe: True
+
+    Package_ID: ce9e483485a25da7602b242cdd155f96e613ae40
+        [options]
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: Visual Studio
+            compiler.runtime: MDd
+            compiler.version: 16
+            os: Windows
+        [requires]
+            brotli/1.1.0:06a7a5848f39a2b1d31f3ee2414a17d463f68a34
+            bzip2/1.0.8:589a23dff5fdb23a7fb851223eb766480ead0a9a
+            expat/2.5.0:b49a4f13d5f917b326e0b0b876c9af8b30b9bf47
+            fontconfig/2.14.2:fa492913021a450fb67e4078f8090896e17a8985
+            freetype/2.13.0:c69bad48274e7fc45c887cddc32aa0459f0a81e0
+            glib/2.78.0:3a67eb6b80b652f26f4298468759fb8b37394aae
+            libffi/3.4.4:d057732059ea44a47760900cb5e4855d2bea8714
+            libgettext/0.22:e0c22822cdf05b624135e1696ae5cb784a23aeb3
+            libiconv/1.17:d057732059ea44a47760900cb5e4855d2bea8714
+            libpng/1.6.40:8b1ef0ec9599374db4689199730c00a0d5f4de36
+            lzo/2.10:d057732059ea44a47760900cb5e4855d2bea8714
+            pcre2/10.42:2e8119dcddebbc9d5753b8e12f06b903b0f1ae93
+            pixman/0.40.0:d057732059ea44a47760900cb5e4855d2bea8714
+            zlib/1.3:d057732059ea44a47760900cb5e4855d2bea8714
+        Outdated from recipe: True
+
+    Package_ID: ddb52b0856158576da7d49c68eee1cd0cc644f35
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: clang
+            compiler.version: 13
+            os: Linux
+        [requires]
+            brotli/1.1.0:05d92be726473493b62deef4a48694e5dba1aae8
+            bzip2/1.0.8:1718811d87d80de7c9031968965934b738936751
+            expat/2.5.0:bef71e5238b7b03b858f1fa7a6f20fae013f892b
+            fontconfig/2.14.2:2060f4d636307ba0fce97c3dc7c7bacbd003eb77
+            freetype/2.13.2:add94f9860349878afccb4f63c3468dc8f88b792
+            glib/2.78.1:de449d9f2987bd2b9eddacfd4e763f2c79c3b060
+            libelf/0.8.13:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libffi/3.4.4:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libmount/2.39:63c2a85d57849e261f98f935b93ecac31ba71b84
+            libpng/1.6.40:2b593a4a3e3ea6df0d971830f53d5cf53f5729db
+            libselinux/3.5:a7fea9711f468991f0cf9fa6dafae31f37b5f629
+            lzo/2.10:63c2a85d57849e261f98f935b93ecac31ba71b84
+            pcre2/10.42:72e418e535172257d605303061c403b7f485466e
+            pixman/0.42.2:63c2a85d57849e261f98f935b93ecac31ba71b84
+            util-linux-libuuid/2.39.2:63c2a85d57849e261f98f935b93ecac31ba71b84
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:63c2a85d57849e261f98f935b93ecac31ba71b84
+        Outdated from recipe: True
+
+    Package_ID: df0b5aa44c4f72235acbfee272eb567062d5da44
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: gcc
+            compiler.version: 7
+            os: Linux
+        [requires]
+            brotli/1.1.0:a116154be20dd85c3f4dfd0583377d9493228be4
+            bzip2/1.0.8:b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3
+            expat/2.6.0:d2aa7fde96817bd9d6d001c15e0479bf82133afe
+            fontconfig/2.15.0:6971be90169da0042af6524e698d07979837e188
+            freetype/2.13.2:718e788d18f87efa6b201b7718f1ffac72f4ad26
+            glib/2.78.3:e6101fdf9edfaeac7ef98ff8c56b9d07577e2b00
+            libelf/0.8.13:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libffi/3.4.4:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libmount/2.39:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            libpng/1.6.43:9378b660d2155d53cea1126fa13164a3bfa59f2c
+            libselinux/3.5:0bb503419c6bf6dd4489726d1b38fdf514902a37
+            lzo/2.10:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            pcre2/10.42:d74761cf0a54bc9387cd4323e35362568072e755
+            pixman/0.43.4:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            util-linux-libuuid/2.39.2:d50a0d523d98c15bb147b18fa7d203887c38be8b
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3.1:d50a0d523d98c15bb147b18fa7d203887c38be8b
+        Outdated from recipe: True
+
+    Package_ID: e251e1a16a8742f0ad5de5b1e28e32c0eaf72ba7
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_symbol_lookup: False
+            with_xcb: True
+            with_xlib: True
+            with_xlib_xrender: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: gcc
+            compiler.version: 11
+            os: Linux
+        [requires]
+            brotli/1.1.0:48127b2f4232777c59f7ab155fabb382e4b944ef
+            bzip2/1.0.8:76bd63d0cd275bc555bda09b7f93740254ba3515
+            expat/2.5.0:3242ee86fec793e7767fb97cb42848d950351d05
+            fontconfig/2.14.2:ea5ce2baf6e10d942f71a6cbfd9565e7191c5ef9
+            freetype/2.13.2:16420e126bff6efa746eed7822d919e143df9a40
+            glib/2.78.1:e27ab84c1793bef42b8a44197c6f60f2964e39a5
+            libelf/0.8.13:be27726f9885116da1158027505be62e913cd585
+            libffi/3.4.4:be27726f9885116da1158027505be62e913cd585
+            libmount/2.39:be27726f9885116da1158027505be62e913cd585
+            libpng/1.6.40:603748838ea57779fa3e5d2c1654692233802817
+            libselinux/3.5:8d38dba775b5b3ecb4168361cb2abb897a09115a
+            lzo/2.10:be27726f9885116da1158027505be62e913cd585
+            pcre2/10.42:5b399045313d700fec29aea700e1ff40adf0f94f
+            pixman/0.42.2:be27726f9885116da1158027505be62e913cd585
+            util-linux-libuuid/2.39.2:be27726f9885116da1158027505be62e913cd585
+            xorg/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+            zlib/1.3:be27726f9885116da1158027505be62e913cd585
+        Outdated from recipe: True
+
+    Package_ID: f18506a4135cd4913b12e49bd3ede78e6fe4187a
+        [options]
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Debug
+            compiler: Visual Studio
+            compiler.runtime: MDd
+            compiler.version: 16
+            os: Windows
+        [requires]
+            brotli/1.1.0:06a7a5848f39a2b1d31f3ee2414a17d463f68a34
+            bzip2/1.0.8:589a23dff5fdb23a7fb851223eb766480ead0a9a
+            expat/2.5.0:b49a4f13d5f917b326e0b0b876c9af8b30b9bf47
+            fontconfig/2.14.2:fa492913021a450fb67e4078f8090896e17a8985
+            freetype/2.13.2:c69bad48274e7fc45c887cddc32aa0459f0a81e0
+            glib/2.78.1:3a67eb6b80b652f26f4298468759fb8b37394aae
+            libffi/3.4.4:d057732059ea44a47760900cb5e4855d2bea8714
+            libgettext/0.22:e0c22822cdf05b624135e1696ae5cb784a23aeb3
+            libiconv/1.17:d057732059ea44a47760900cb5e4855d2bea8714
+            libpng/1.6.40:8b1ef0ec9599374db4689199730c00a0d5f4de36
+            lzo/2.10:d057732059ea44a47760900cb5e4855d2bea8714
+            pcre2/10.42:2e8119dcddebbc9d5753b8e12f06b903b0f1ae93
+            pixman/0.42.2:d057732059ea44a47760900cb5e4855d2bea8714
+            zlib/1.3:d057732059ea44a47760900cb5e4855d2bea8714
+        Outdated from recipe: True
+
+    Package_ID: fea67498b80cac6c7ae0204775d85b01fc4ffd07
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: armv8
+            build_type: Debug
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:3346836f0dca63f7945d6ed17ed26d723bbc4291
+            bzip2/1.0.8:06955caeb41bcd97dbb7ebe09828eda1babd28fa
+            expat/2.5.0:8c3bf58f5a1c42c3db962024098ad6bfe7fd5e94
+            fontconfig/2.14.2:b3f48c19c4ca9d15dc1354fc12dde8affbbefbc7
+            freetype/2.13.0:146c09a196ea1079a31892d70916956dfd5e19da
+            glib/2.78.0:2b9fb10988721126fe8412374b317e14ddfb784e
+            libelf/0.8.13:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libffi/3.4.4:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libgettext/0.22:c8ba9d6f1c61c2b402385fd9257330e2c2f8713f
+            libiconv/1.17:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            libpng/1.6.40:2735bd32af8b4a0686a53e104a3b95fd255d376f
+            lzo/2.10:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            pcre2/10.42:8b827986825b8d2910dd5f10427603aef3cfa35e
+            pixman/0.40.0:3558c54d13382045caaf9174821b7c2ba01fc8bc
+            zlib/1.3:3558c54d13382045caaf9174821b7c2ba01fc8bc
+        Outdated from recipe: True
+
+    Package_ID: ff9a2230a5fb63b400a9831a98bc172f0aa6878d
+        [options]
+            fPIC: True
+            shared: False
+            tee: False
+            with_fontconfig: True
+            with_freetype: True
+            with_glib: True
+            with_lzo: True
+            with_png: True
+            with_zlib: True
+        [settings]
+            arch: x86_64
+            build_type: Release
+            compiler: apple-clang
+            compiler.version: 13.0
+            os: Macos
+        [requires]
+            brotli/1.1.0:f8fcfceb458bc47e73827447adde37fedaef9a77
+            bzip2/1.0.8:f2848f95be36a5d770fc8e833993b621f703b507
+            expat/2.5.0:2ab4686b1dd553337a750e5da49af947c66a2400
+            fontconfig/2.14.2:9c3c6faeefd74716e3f3513174fab7a75181d8ba
+            freetype/2.13.2:926ec86ec76de2940f5d319a90b247e8ad515ede
+            glib/2.78.1:4c7fea75cfe3e28cb8336cbe8b1e36c35235f5a2
+            libelf/0.8.13:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            libffi/3.4.4:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            libgettext/0.22:093defb2b8902dbb1cd5737e8d24a7f794ccc2d9
+            libiconv/1.17:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            libpng/1.6.40:aa5d2c35e57d031363e527ecb0b07150ed151373
+            lzo/2.10:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            pcre2/10.42:6ceee2287080418db19f81b4ed8b89ecf615e8b2
+            pixman/0.42.2:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+            zlib/1.3:e4fbacdee83eb1a2e68227ffe19f6e9a61b36cbc
+        Outdated from recipe: True
+
